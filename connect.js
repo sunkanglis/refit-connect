@@ -36,7 +36,7 @@ _connect.configActions = function (actions)  {
     _connect.actions = actions
 }
 
-_connect.addActionCreator = function (actionCreator)  {
+_connect.addActionCreators = function (actionCreator)  {
     _connect.actions = Object.assign({}, _connect.actions, actionCreator)
 }
 
